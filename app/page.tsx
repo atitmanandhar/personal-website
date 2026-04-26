@@ -11,10 +11,10 @@ import {
   MorphingDialogContainer,
 } from '@/components/ui/morphing-dialog'
 import Link from 'next/link'
+import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedBackground } from '@/components/ui/animated-background'
 import {
   PROJECTS,
-  WORK_EXPERIENCE,
   BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
@@ -136,6 +136,20 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <div className="flex-1">
+          <div className="mb-8">
+            <Link href="/" className="font-medium text-black dark:text-white">
+              Atit Manandhar
+            </Link>
+            <TextEffect
+              as="p"
+              preset="fade"
+              per="char"
+              className="text-zinc-600 dark:text-zinc-500"
+              delay={0.5}
+            >
+              Full-Stack Developer
+            </TextEffect>
+          </div>
           <p className="text-zinc-600 dark:text-zinc-400">
             Focused on creating intuitive and performant web experiences.
             Bridging the gap between design and development.

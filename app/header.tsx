@@ -1,24 +1,11 @@
 'use client'
-import { TextEffect } from '@/components/ui/text-effect'
 import Link from 'next/link'
+import Navbar from './nav'
 
 export function Header() {
   return (
-    <header className="mb-8 flex items-center justify-between">
-      <div>
-        <Link href="/" className="font-medium text-black dark:text-white">
-          Atit Manandhar
-        </Link>
-        <TextEffect
-          as="p"
-          preset="fade"
-          per="char"
-          className="text-zinc-600 dark:text-zinc-500"
-          delay={0.5}
-        >
-          Full-Stack Developer
-        </TextEffect>
-      </div>
+    <header className="mb-24">
+      <Navbar />
     </header>
   )
 }
