@@ -74,6 +74,12 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/example-mdx-metadata',
     uid: 'blog-4',
   },
+  {
+    title: 'Start with the good',
+    description: 'Why start with the good is the best thing you could do?',
+    link: '/blog/start-with-the-good',
+    uid: 'blog-5',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [

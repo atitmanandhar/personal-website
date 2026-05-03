@@ -49,7 +49,7 @@ export default function Page() {
             {BLOG_POSTS.map((post) => (
               <Link
                 key={post.uid}
-                className="-mx-3 rounded-xl px-3 py-3"
+                className="-mx-3 rounded-xl px-3 py-3 no-underline"
                 href={post.link}
                 data-id={post.uid}
               >
