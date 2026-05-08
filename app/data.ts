@@ -29,12 +29,12 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Valley Ornaments Website',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'A client website built using React JS and Express.',
+    link: 'https://valleyornaments.com.np/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'https://www.youtube.com/embed/EpGi_SIxjtQ?si=TN0O7xagwPsKFLVw',
     id: 'project1',
   },
   {
