@@ -29,20 +29,20 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Manram Himalayan Voyages',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'Website built using WordPress.',
+    link: 'https://manramvoyages.com/',
     image:
-      'https://64.media.tumblr.com/a56381366ceaab29b760aabe5e88df07/f3b5e9af4d3103f3-97/s2048x3072/caec6beeee2cbeb80b05e88c917b187926749703.jpg',
+      '/projects/Manram-Himalayan-Voyages-Home.png',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'Valley Ornaments',
+    description: 'Custom website built using React & Node',
+    link: 'https://valleyornaments.com.np/',
     image:
-      'https://64.media.tumblr.com/a56381366ceaab29b760aabe5e88df07/f3b5e9af4d3103f3-97/s2048x3072/caec6beeee2cbeb80b05e88c917b187926749703.jpg',
+      '/projects/Valley-Ornaments-Nepal-Home.png',
     id: 'project2',
   },
 ]
