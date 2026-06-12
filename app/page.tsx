@@ -148,8 +148,9 @@ export default function Personal() {
             </TextEffect>
           </div>
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            Focused on building useful, user-friendly digital products.
+            <br />
+            Sharing thoughts on technology, creativity, productivity, and the ideas that inspire me.
           </p>
         </div>
       </motion.section>
