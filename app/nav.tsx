@@ -26,9 +26,9 @@ export default function Navbar() {
               key={path}
               href={path}
               className={clsx(
-                'text-base transition-all text-gray-500 hover:text-white',
+                'text-base transition-all text-black dark:text-white',
                 {
-                  'text-white': pathname === path,
+                  'font-semibold': pathname === path,
                 },
               )}
             >
