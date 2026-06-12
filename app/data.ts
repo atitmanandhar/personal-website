@@ -29,21 +29,12 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-<<<<<<< HEAD
-    name: 'Valley Ornaments Website',
-    description:
-      'A client website built using React JS and Express.',
-    link: 'https://valleyornaments.com.np/',
-    video:
-      'https://www.youtube.com/embed/EpGi_SIxjtQ?si=TN0O7xagwPsKFLVw',
-=======
     name: 'Manram Himalayan Voyages',
     description:
       'Website built using WordPress.',
     link: 'https://manramvoyages.com/',
     image:
       '/projects/Manram-Himalayan-Voyages-Home.png',
->>>>>>> feature-homepage
     id: 'project1',
   },
   {
