@@ -78,7 +78,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Start with the good',
     description: 'Why start with the good is the best thing you could do?',
     link: '/blog/start-with-the-good',
-    uid: 'blog-5',
+    uid: 'blog-1',
+  },
+  {
+    title: 'Lost my momentum',
+    description: 'Never let your desire for perfection prevent you from finishing something that\'s good.',
+    link: '/blog/lost-my-momentum',
+    uid: 'blog-2',
   },
 ]
 
